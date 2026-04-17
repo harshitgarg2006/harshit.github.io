@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HARSHIT GARG</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <style>
+
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .headings {
+            position: sticky;
+            top: 0px;
+            background-color: blanchedalmond;
+            padding: 10px;
+        }
+
+        .text {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 16px;
+            font-weight: 300;
+            margin-bottom: 20px;
+            margin-left: 10px;
+            position: relative;
+            z-index: 0;
+            width: 100vw;
+        }
+
+        .heading {
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 10px;
+            font-size: 24px;
+            font-weight: bolder;
+        }
+
+        .body {
+            margin: 10px;
+            width: 100%;
+        }
+        .ham {
+            top: 0px;
+            position: fixed;
+            right: 10px;
+            z-index: 9999;
+        }
+        .ham svg{
+            width: 30px;
+            height: 30px;
+        }
+        
+
+        .cross {
+            position: fixed;
+            top: 0vh;
+            right: 7px;
+            z-index: 2;
+        }
+        .cross svg{
+            width: 0px;
+            height: 30px;
+        }
+
+        .ham:hover {
+            cursor: pointer;
+        }
+
+        .cross:hover {
+            cursor: pointer;
+        }
+        .drop {
+            width: 10vw;
+            height: 400px;
+            border: 3px solid black;
+            position: fixed;
+            top: -450px;
+            transition: 0.3s;
+            right: 0px;
+            overflow-x: auto;
+        }
+
+        .dropbox:hover {
+            cursor: pointer;
+        }
+
+        .link {
+            text-decoration: none;
+            color: black;
+        }
+
+        .dropbox {
+            height: 40px;
+            width: 10vw;
+            border: 2px solid black;
+            background-color: blanchedalmond;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+        .head {
+            background-color: blanchedalmond;
+            margin: 0px;
+            padding: 18px;
+            height: 8vh;
+            width: 100vw;
+            border: 2px solid black;
+            display: flex;
+            justify-content: space-between;
+            position: sticky;
+            top: 0px;
+            z-index: 1;
+        }
+
+        .main1 {
+            display: flex;
+            width: 100vw;
+        }
+        @media (max-width: 1100px) {
+            .drop{
+                width: 14vw;
+            }
+            .dropbox{
+                width: 14vw;
+            }
+        }
+        @media (max-width: 925px) {
+            .drop{
+                width: 18vw;
+            }
+            .dropbox{
+                width: 18vw;
+            }
+        }
+        @media (max-width: 615px) {
+            .drop{
+                width: 22vw;
+            }
+            .dropbox{
+                width: 22vw;
+            }
+        }
+        @media (max-width: 500px) {
+            .drop{
+                width: 41vw;
+            }
+            .dropbox{
+                width: 41vw;
+            }
+        }
+
+
+        
+    </style>
+
+</head>
+
+<body>
+    <div class="head">
+        <div class="main1">
+            <h1 class="headings">PORT FOLIO - HARSHIT GARG</h1>
+            <div class="cross">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="currentColor"
+                    fill="white">
+                    <path
+                        d="M17.4677 5.46966C17.7606 5.17678 18.2354 5.17677 18.5283 5.46966C18.8211 5.76255 18.8211 6.23733 18.5283 6.5302L13.0576 11.9999L18.5273 17.4696C18.8201 17.7625 18.8201 18.2373 18.5273 18.5302C18.2344 18.823 17.7596 18.823 17.4668 18.5302L11.997 13.0604L6.52921 18.5292C6.23635 18.8221 5.76156 18.822 5.46866 18.5292C5.17577 18.2363 5.17577 17.7615 5.46866 17.4687L10.9365 11.9999L5.46769 6.53118C5.17481 6.23831 5.17486 5.76353 5.46769 5.47063C5.76058 5.17776 6.23535 5.17775 6.52823 5.47063L11.997 10.9394L17.4677 5.46966Z"
+                        fill="currentColor" />
+                </svg>
+            </div>
+        </div>
+        <div class="drop">
+            <div class="ham">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" color="currentColor"
+                    fill="none">
+                    <defs />
+                    <path fill="currentColor"
+                        d="M3.25,5 C3.25,4.586 3.586,4.25 4,4.25 L20,4.25 C20.414,4.25 20.75,4.586 20.75,5 C20.75,5.414 20.414,5.75 20,5.75 L4,5.75 C3.586,5.75 3.25,5.414 3.25,5 Z M3.25,12 C3.25,11.586 3.586,11.25 4,11.25 L20,11.25 C20.414,11.25 20.75,11.586 20.75,12 C20.75,12.414 20.414,12.75 20,12.75 L4,12.75 C3.586,12.75 3.25,12.414 3.25,12 Z M4,18.25 L20,18.25 C20.414,18.25 20.75,18.586 20.75,19 C20.75,19.414 20.414,19.75 20,19.75 L4,19.75 C3.586,19.75 3.25,19.414 3.25,19 C3.25,18.586 3.586,18.25 4,18.25 Z" />
+                </svg>
+
+
+            </div>
+            <div class="dropbox">
+                <a class="link" href="#introduction">Introduction</a>
+            </div>
+            <div class="dropbox">
+                <a class="link" href="#about me">About Me</a>
+            </div>
+            <div class="dropbox">
+                <a class="link" href="#testimonials">Testimonials</a>
+            </div>
+            <div class="dropbox">
+                <a class="link" href="#education">Education</a>
+            </div>
+            <div class="dropbox">
+                <a class="link" href="#career objective">Career Objective</a>
+            </div>
+            <div class="dropbox">
+                <a class="link" href="#technical skills">Technical Skills</a>
+            </div>
+            <div class="dropbox">
+                <a class="link" href="#projects">Projects</a><br>
+            </div>
+            <div class="dropbox">
+                <a class="link" href="#internships">Internships</a><br>
+            </div>
+            <div class="dropbox">
+                <a class="link" href="#achievements">Achievements</a>
+            </div>
+            <div class="dropbox">
+                <a class="link" href="#certifications">Certifications</a>
+            </div>
+            <div class="dropbox">
+            <a class="link" href="#positions of responsibility">Positions Of Responsibility</a>
+            </div>
+            <div class="dropbox">
+                <a class="link" href="#leadership experience">Leadership Experience</a>
+            </div>
+            <div class="dropbox">
+                <a class="link" href="#problem solving / coding profiles">Problem Solving / Coding
+                    Profiles</a>
+            </div>
+            <div class="dropbox">
+                <a class="link" href="#final year project">Final Year Project</a>
+            </div>
+            <div class="dropbox">
+                <a class="link" href="#strengths">Strengths</a>
+            </div>
+            <div class="dropbox">
+                <a class="link" href="#soft skills">Soft Skills</a>
+            </div>
+            <div class="dropbox">
+                <a class="link" href="#hobbies and interests">Hobbies And Interests</a>
+            </div>
+            <div class="dropbox">
+                <a class="link" href="#extra-curricular activities">Extra-Curricular Activities</a>
+            </div>
+            <div class="dropbox">
+                <a class="link" href="#contact section">Contact Section</a>
+            </div>
+
+        </div>
+    </div>
+
+    </div>
+    <H2 class="heading" id="introduction">Introduction</H2>
+    <div class="text">
+        <P>
+            Name: Harshit Garg
+        </P>
+        <P>
+            Title: BTech Graduate | Software Developer | Problem Solver
+        </P>
+        <P>
+
+
+            I am a passionate engineering graduate with strong interest in software development, problem solving,
+            and
+            building impactful technology solutions. I enjoy learning new technologies and applying them to
+            real-world
+            problems.
+
+        </P>
+    </div>
+    <hr>
+    <h2 class="heading" id="about me">About Me</h2>
+
+    <div class="text">
+
+        <p>I recently completed my Bachelor of Technology in Textile Technology from Dr. B.R. Ambedkar National
+            Institute Of
+            Technology Jalandhar. During my academic journey, I developed strong technical skills, teamwork
+            abilities, and
+            problem-solving mindset. I enjoy working on projects that challenge me to learn new technologies.</p>
+    </div>
+    <hr>
+    <h2 class="heading" id="career objective">Career Objective</h2>
+    <div class="text">
+        <p>To secure a challenging position in a reputable organization where I can apply my technical skills, grow
+            professionally, and contribute to meaningful projects.
+        </p>
+    </div>
+    <hr>
+    <h2 class="heading" id="education">Education</h2>
+
+
+    <div class="text">
+        <ol>BTech in Textile Technology — Dr. B.R. Ambedkar National Institute Of Technology Jalandhar (2029)</p>
+
+            <li>12th — Mahindra Public School, Bathinda (2024)</li>
+
+            <li>10th — Green Valley Public School, Moga (2022)</li>
+
+        </ol>
+    </div>
+    <hr>
+    <h2 class="heading" id="technical skills">Technical Skills</h2>
+    <div class="text">
+        <ul>
+
+            <li>C++</li>
+
+            <li>Python</li>
+
+            <li>JavaScript</li>
+
+            <li>Web Development</li>
+
+            <li>HTML</li>
+
+            <li>CSS</li>
+
+            <li>React</li>
+
+            <li>Node.js</li>
+
+            <li>Tools</li>
+
+            <li>Git</li>
+
+            <li>VS Code</li>
+
+            <li>Linux</li>
+        </ul>
+    </div>
+    <hr>
+    <h2 class="heading" id="projects">Projects</h2>
+    <div class="text">
+        <ul>
+
+
+
+            <li>Portfolio Website</li>
+
+
+            <p>Built using HTML, CSS, and JavaScript</p>
+
+            <p>Responsive design</p>
+
+            <p>Showcases skills and projects</p>
+
+            <li>Student Management System</li>
+
+            <p>CRUD operations</p>
+
+            <p>Database integration</p>
+        </ul>
+    </div>
+    <hr>
+    <h2 class="heading" id="internships">Internships</h2>
+    <div class="text">
+        <ul>
+            <li>Software Development Intern — Microsoft</li>
+
+            <p>Worked on web applications</p>
+
+            <p>Fixed bugs and improved UI</p>
+
+            <p>Collaborated with development team</p>
+        </ul>
+    </div>
+    <hr>
+    <h2 class="heading" id="achievements">Achievements</h2>
+    <div class="text">
+        <ul>
+            <li>Solved 200+ coding problems
+
+            <li>Top 10 in college hackathon</li>
+
+            <li>Academic excellence award</li>
+        </ul>
+    </div>
+    <hr>
+    <h2 class="heading" id="certifications">Certifications</h2>
+    <div class="text">
+        <ul>
+
+            <li>Data Structures Certification</li>
+
+            </li>Web Development Course</li>
+
+            </li>Python Programming Certification</li>
+        </ul>
+    </div>
+    <hr>
+    <h2 class="heading" id="positions of responsibility">Positions of Responsibility</h2>
+    <div class="text">
+        <ul>
+
+            <li>Class Representative</li>
+
+            <li>Coding Club Member</li>
+
+            <li>Event Coordinator</li>
+        </ul>
+    </div>
+    <hr>
+    <h2 class="heading" id="leadership experience">Leadership Experience</h2>
+    <div class="text">
+        <p></p>Led a team of 5 students in final year project development and coordinated task distribution.</p>
+    </div>
+    <hr>
+    <h2 class="heading" id="problem solving / coding profiles">Problem Solving / Coding Profiles</h2>
+    <div class="text">
+        <a href="https://leetcode.com/u/harshitgargnitj/" target="_blank">Leetcode</a><br>
+        <a href="https://www.linkedin.com/in/harshit-garg-a168943a9 " target="_blank">LinlkedIn</a><br>
+        <a href="https://www.codechef.com/users/uber_zen_49" target="_blank">Codechef</a><br>
+        <a href="https://github.com/harshitgarg2006" target="_blank">GitHub</a>
+
+
+    </div>
+    <hr>
+
+    <h2 class="heading" id="final year project">Final Year Project</h2>
+    <div class="text">
+        <ul>
+            <p>Project Title: Smart Student Management System</p>
+
+            <p>Description:</p>
+            <p>The Smart Student Management System is a web-based application designed to simplify the management of
+                student
+                records, academic information, and administrative tasks in educational institutions. The system
+                provides an
+                efficient digital platform to store, update, and retrieve student data securely.
+
+                The project was developed to replace manual record-keeping processes with an automated solution that
+                improves accuracy, accessibility, and time efficiency.
+            </p>
+            <p>Key Features:</p>
+
+            <li>Student registration and profile management</li>
+
+            <li>Add, update, and delete student records</li>
+
+            <li>Secure login system for administrators</li>
+
+            <li>Search and filter student information</li>
+
+            <li>Responsive user interface</li>
+
+            <p>Technologies Used:</p>
+
+            <li>HTML</li>
+
+            <li>CSS</li>
+
+            <li>JavaScript</li>
+
+            <li>Python</li>
+
+            <p>My Role:</p>
+            <p>I was responsible for designing the user interface, implementing core functionality, and integrating
+                the
+                database with the application. I also handled testing and debugging to ensure smooth performance.
+            </p>
+            <p>Outcome:</p>
+            <p>The project successfully demonstrated how digital systems can improve data management in educational
+                institutions. It strengthened my understanding of full-stack development, database integration, and
+                software
+                design principles.
+            </p>
+        </ul>
+    </div>
+    <hr>
+    <h2 class="heading" id="strengths">Strengths</h2>
+    <div class="text">
+        <ul>
+
+            <li>>Quick learner</li>
+
+            <li>Team player</li>
+
+            </i>Problem solving</li>
+
+            <li>Adaptability</li>
+        </ul>
+    </div>
+    <hr>
+    <h2 class="heading" id="soft skills">Soft Skills</h2>
+    <div class="text">
+        <ul>
+
+            <li>Communication</li>
+
+            <li>Time management</li>
+
+            <li>Leadership</li>
+
+            <li>Collaboration</li>
+        </ul>
+    </div>
+    <hr>
+    <h2 class="heading" id="hobbies and interests">Hobbies And Interests</h2>
+    <div class="text">
+        <ul>
+
+
+            <li>Coding</li>
+
+            <li>Gaming</li>
+
+            <li>Watching tech videos</li>
+
+            <li>Reading</li>
+
+            <li>Fitness</li>
+
+        </ul>
+    </div>
+    <hr>
+    <h2 class="heading" id="extra-curricular activities">Extra-Curricular Activities</h2>
+    <div class="text">
+        <ul>
+
+            <li>College fest participation</li>
+
+            <li>Hackathons</li>
+
+            <li>Workshops</li>
+        </ul>
+    </div>
+    <hr>
+    <h2 class="heading" id="testimonials">Testimonials</h2>
+    <div class="text">
+        <p>
+
+            "A hardworking and dedicated student with strong technical skills."
+            — Mr. Pallaniswamy N.K.
+        </p>
+    </div>
+    <hr>
+    <h2 class="heading" id="contact section">Contact Section</h2>
+    <div class="text">
+        <a href="mailto:harshitgarg0106@gmail.com" target="_blank">harshitgarg0106@gmail.com</a><br>
+
+        <a href="https://github.com/harshitgarg2006" target="_blank">GitHub</a><br>
+
+        <a href="tel:7901718737" target="_blank">79017-18737</a>
+
+    </div>
+    <hr>
+
+    © 2026 HARSHIT GARG | Portfolio Website
+</body>
+<script>
+    document.querySelector(".ham").addEventListener("click", () => {
+        document.querySelector(".drop").style.top = "0px"
+        document.querySelector(".cross svg").style.width = "30px"
+        document.querySelector(".ham svg").style.width = "0px"
+    })
+    document.querySelector(".cross").addEventListener("click", () => {
+        document.querySelector(".drop").style.top = "-450px"
+        document.querySelector(".cross svg").style.width = "0px"
+        document.querySelector(".ham svg").style.width = "30px"
+    })
+
+</script>
+
+
+</html>
